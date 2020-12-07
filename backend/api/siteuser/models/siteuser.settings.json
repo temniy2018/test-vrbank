@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "siteusers",
+  "info": {
+    "name": "siteuser"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}

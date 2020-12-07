@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/siteusers",
+      "handler": "siteuser.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/siteusers/count",
+      "handler": "siteuser.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/siteusers/:id",
+      "handler": "siteuser.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/siteusers",
+      "handler": "siteuser.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/siteusers/:id",
+      "handler": "siteuser.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/siteusers/:id",
+      "handler": "siteuser.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
